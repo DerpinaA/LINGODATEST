@@ -70,6 +70,10 @@ where the command line will ask you a series of step-by-step questions
         services: ['selenium-standalone'],
          // ...
          };
+	 
++ Step seven:
+  + The setup is complete, and you can write your tests now. Directory for tests would be 'project-root-directory/test/specs'. In this directory, you can put your script and execute the following command from 'project-root-directory' to execute your tests scripts:
+	npm test
 
    
 
