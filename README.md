@@ -55,14 +55,12 @@ where the command line will ask you a series of step-by-step questions
 | Where are your test specs located | ./test/specs/**/*.js |
 | Which reporter do you want to use? | dot |
 | Shall I install the reporter library for you?| yes |
-| Do you want to add a service to your test setup?|  |selenium standalone|
-| Level of logging verbosity:| |trace|
-| What is the base url?| |http://localhost|
 
 
 
 
-+ Sixth step:
+
++  Step six:
 
 Add 'selenium-standalone' to services array inside 'wdio.conf.js'
 
@@ -73,7 +71,7 @@ export.config = {
 };
 
     
-+ Seventh step: 
++ Step seven: 
 The setup is complete, and you can write your tests now Directory for tests would be 'project-root-directory/test/specs'.
 
 In this directory, you can put your script and execute the following command from 'project-root-directory' to execute your tests scripts:
