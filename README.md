@@ -46,6 +46,11 @@ where the command line will ask you a series of step-by-step questions
 
 | Question  | Input |
 | ------------- | ------------- |
+| Where should your tests be launched?  | local press enter|
+| Shall I install the runner plugin for you?| yes press enter |
+|  Where is your automation backend located? | on my local machine |
+| Which framework do you want to use? | mocha |
+| Shall I install the framework adapter for you? | yes |
 
 
 
