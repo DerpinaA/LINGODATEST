@@ -43,18 +43,10 @@ where the command line will ask you a series of step-by-step questions
     ./node_modules/.bin/wdio wdio.conf.js
     
 
-| Where should your tests be launched?  | local press enter|
-| Shall I install the runner plugin for you?| yes press enter |
-|  Where is your automation backend located? | on my local machine |
-| Which framework do you want to use? | mocha |
-| Shall I install the framework adapter for you? | yes |
-|  Do you want to run WebdriverIO commands synchronous or asynchronous?| sync |
-| Where are your test specs located | ./test/specs/**/*.js |
-| Which reporter do you want to use? | dot |
-| Shall I install the reporter library for you?| yes |
-|Do you want to add a service to your test setup?|  |selenium standalone|
-|Level of logging verbosity:| |trace|
-|What is the base url?| |http://localhost|
+
+| Question  | Input |
+| ------------- | ------------- |
+
 
 
 
