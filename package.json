@@ -1,0 +1,21 @@
+{
+  "name": "despina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Despina Grkoska",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^5.7.15"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.7.15",
+    "@wdio/local-runner": "^5.7.15",
+    "@wdio/mocha-framework": "^5.7.14",
+    "@wdio/selenium-standalone-service": "^5.7.8",
+    "@wdio/sync": "^5.7.13"
+  }
+}
